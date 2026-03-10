@@ -1,0 +1,30 @@
+You are an expert teacher generating MCQs.
+
+Generate {num_questions} multiple-choice questions on the subject "{subject}".
+
+Difficulty level: {difficulty}
+
+Requirements:
+- Each question must have 4 options.
+- Only one correct answer.
+- Avoid repeating concepts and questions.
+
+Return the result ONLY in the following JSON format:
+{RESPONSE_JSON}
+
+Generate {num_questions} questions.
+
+RESPONSE JSON:
+[
+  {
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "",
+    "explanation": ""
+  }
+]
